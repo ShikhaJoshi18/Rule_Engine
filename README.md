@@ -40,13 +40,12 @@ Ensure you have the following installed:
 
 ## Installation
 1. Clone the repository
-   git clone https://github.com/yourusername/rule-engine.git
-   cd rule-engine
 
 2. Install dependencies: Navigate to the project’s root directory and install the required packages.
    npm install
 
 3. Install Frontend Dependencies: Navigate to the frontend folder and install frontend dependencies (if using a separate setup).
+   
    cd frontend
    npm install
 
