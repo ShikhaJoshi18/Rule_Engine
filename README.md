@@ -46,7 +46,7 @@ Ensure you have the following installed:
 
 3. Install Frontend Dependencies: Navigate to the frontend folder and install frontend dependencies (if using a separate setup).
    
-   cd frontend
+   cd frontend (navigate to the frontend folder)
    npm install
 
 
@@ -70,10 +70,10 @@ docker run --name rule-engine-mongo -d -p 27017:27017 -v ruledata:/data/db -v $(
 [Step 3: Verify the Setup (Optional)]
 
 1. To verify the database and collection, connect to MongoDB
-   docker exec -it rule-engine-mongo mongosh
+   (docker exec -it rule-engine-mongo mongosh)
 2. Then switch to the ruleEngine database and check the collections:
-   use ruleEngine;
-  show collections;
+   (use ruleEngine;
+  show collections;)
 
   You should see rules listed.
 
